@@ -1,0 +1,4 @@
+.idea
+Dockerfile
+**/.idea
+**/node_modules

@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+  monitor:
+    image: monitor:1
+    container_name: monitor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /etc/monitor:/etc/monitor
+    network_mode: bridge
+    restart: unless-stopped
