@@ -2,3 +2,4 @@
 Dockerfile
 **/.idea
 **/node_modules
+start.bat
